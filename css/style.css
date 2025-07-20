@@ -1,96 +1,52 @@
-/* Global Styles */
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
+   body {
+            background-image:url("../images/skybackground.jpg");
+            background-size: cover;
+            font-family: 'Lato', sans-serif;
 
-.container {
-  display: grid;
-  grid-template-rows: auto 2fr auto;
-  gap: 10px;
-  height: 100vh;
-}
+            color: #436b15;
+            margin: 1px:
+        }
 
-.header, .footer {
-  background-color: #ddd;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid black;
-}
+    h1, h2, h3 {
+        font-family: 'Oswald', serif;
+        color: #000;
+        text-shadow: 1px 1px 1px #96cc58;
+        font-style: smallcaps;
+    /*font-size:30px: */
+    }
 
-.content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 10px;
-  padding: 10px;
-}
+    p {
+        color: white;
+    }
+    
+    li {
+        color:green;
+    }
+    div {
 
-.box {
-  background-color: #f5f5f5;
-  border: 1px solid black;
-  padding: 20px;
-  text-align: center;
+  /*border: double white;*/
 }
+img{ 
+    max-width: 95%;
 
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
+figcaption {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+*{
+	box-sizing: border-box;
+	}
 
-header, footer {
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 20px;
-}
+.col {
+		float: left;
+	    padding: 15px;  
+	}
 
-/* Main Grid Setup */
-.main-row,
-.recipe-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
+.row {
+	content: “”;
+	clear: both;
+	display: block;
+	}
 
-nav.links,
-.content,
-.features,
-.ingredients,
-.equipment,
-.directions {
-  border: 1px solid #ccc;
-  padding: 15px;
-  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-  flex: 1;
-  margin: 10px;
-}
-
-/* Specific Widths (Flexible layout) */
-.links, .features, .content {
-  min-width: 200px;
-}
-.features input[type="text"] {
-  width: 100px;
-}
-img {
-  width: 100%;
-  height: auto;
-}
-
-/* Typography */
-h1, h2, h3 {
-  font-family: 'Oswald', serif;
-}
-fieldset {
-  border: 1px solid #aaa;
-  padding: 10px;
-}
-legend {
-  font-weight: bold;
-}
-footer p {
-  font-size: 0.9em;
-  color: #555;
-}

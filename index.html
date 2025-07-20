@@ -1,92 +1,85 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Natalie Schultz">
-  <title>Schultz Steak Sauce</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&family=Libre+Baskerville">
-  <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Natalie Schultz">
+      <title>Schultz Steak Sauce</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap">
+      <link href="css/style.css" rel="stylesheet" type="text/css" >
+   </head> 
+   <body>
+   <div class="row">
+    <div class="col"  style="width:100%">Header
+    
+    </div>
+   </div>
 
-  <!-- Header Row -->
-  <header>
-    <h1>Schultz Steak Sauce</h1>
-    <h2>Mrs. Clark's Bernaise Sauce Recipe</h2>
-    <p>Susan Clark, Olympia, WA</p>
-  </header>
+   <div class="row">
+    <div class="col"  style="width:10%">Links</div>
+    <div class="col"  style="width:50%">
+        <h1>Schultz Steak Sauce</h1>
+        <h2>Mrs. Clark's Bernaise Sauce Recipe</h2>
+        <p>Susan Clark, Olympia, WA</p>
+        <figure>
+            <img src="images/bernaise_sauce.jpg" alt="Grilled steak topped with creamy yellow sauce, garnished with asparagus and fresh thyme, served with mashed potatoes">
+            <figcaption>A delicious plate featuring grilled steak with creamy sauce, asparagus, thyme, and mashed potatoes, image source https://pxhere.com/en/photo/585878</figcaption>
+        </figure>
+    </div>
+    <div class="col"  style="width:40%">
+        <h3 class="rate">Rate This Recipe</h3>
+            <fieldset>
+               <legend>How difficult is this recipe?</legend>
+               <input type="radio" id="easy" name="easy"> Easy
+               <input type="radio" id="med" name="med">Intermediate
+               <input type="radio" id="hard" name="hard"> Hard
+            </fieldset>
+            <p>&nbsp;</p>
+              <h3>Conversion</h3>
+            <input type="text" id="tblspn" name ="tblspn">
+            =
+            <input type="text" id="cups" name="cups">
+    </div>
+   </div>
 
-  <!-- Main Content Row -->
-  <div class="main-row">
-    <nav class="links">
-      <h3>Links</h3>
+   <div class="row">
+    <div class="col"  style="width:33%">
+       <h3>Ingredients List</h3>
+            <ul>
+               <li>2 egg yolks</li>
+               <li>1 stick of butter (1/2 cup)</li>
+               <li>2 T tarragon vinegar</li>
+               <li>1 t salt</li>
+            </ul>
+    </div>
+    <div class="col"  style="width:33%">
+        <h3>Equipment </h3>
+         <ul>
+           <li>blender</li>
+           <li>sauce pan</li>
+           <li>bowls</li>
+         </ul>   
+
+    </div>
+    <div class="col"  style="width:33%">
+       <h3>Directions</h3>
       <ul>
-        <li><a href="#">Placeholder Link 1</a></li>
-        <li><a href="#">Placeholder Link 2</a></li>
-      </ul>
-    </nav>
+            <li>Heat butter in sauce pan until slightly hot.</li>
+            <li>Pour egg yolks, not beaten, into blender.</li>
+            <li>Add tarragon vinegar and salt to egg yolks in blender.</li>
+            <li>Cover blender with lid.</li>
+            <li>Turn blender to low speed.</li>
+            <li>Slightly lift lid and slowly drizzle butter into egg yolk using a paper towel to cover the top so the sauce won't splatter.</li>
+            <li>Pour finished sauce into bowl and serve with steak, asparagus, anything you want.</li>
+         </ul> 
+    </div>
+   </div>
 
-  <section class="content">
-  <h2>Recipe Photo</h2>
-  <figure>
-    <img src="images/bernaise_sauce.jpg" alt="Grilled steak with creamy sauce, asparagus, and mashed potatoes">
-    <figcaption>Image source: <a href="https://pxhere.com/en/photo/585878">pxhere</a></figcaption>
-  </figure>
-</section>
+   <div class="row">
+    <div class="col"  style="width:100%">Footer</div>
+   </div>
+    <!--Body ends here -->
 
-  <aside class="features">
-  <h3>Rate This Recipe</h3>
-  <fieldset>
-    <legend>Difficulty</legend>
-    <label><input type="radio" name="difficulty" value="easy"> Easy</label><br>
-    <label><input type="radio" name="difficulty" value="medium"> Medium</label><br>
-    <label><input type="radio" name="difficulty" value="hard"> Hard</label>
-  </fieldset>
-  <h3>Conversion</h3>
-  <input type="text" placeholder="Tablespoons"> =
-  <input type="text" placeholder="Cups">
-</aside>
-
-  </div>
-  <!-- Recipe Detail Row -->
-  <div class="recipe-row">
-    <section class="ingredients">
-      <h3>Ingredients</h3>
-      <ul>
-        <li>2 egg yolks</li>
-        <li>1 stick of butter (1/2 cup)</li>
-        <li>2 T tarragon vinegar</li>
-        <li>1 t salt</li>
-      </ul>
-    </section>
-
- <section class="equipment">
-  <h3>Equipment</h3>
-  <ul>
-    <li>Blender</li>
-    <li>Sauce pan</li>
-    <li>Bowls</li>
-  </ul>
-</section>
-
-<section class="directions">
-  <h3>Directions</h3>
-  <ol>
-    <li>Heat butter in sauce pan until slightly hot.</li>
-    <li>Pour egg yolks into blender.</li>
-    <li>Add tarragon vinegar and salt.</li>
-    <li>Cover blender and turn to low speed.</li>
-    <li>Drizzle in butter slowly while covering with paper towel.</li>
-    <li>Serve sauce with steak and vegetables.</li>
-  </ol>
-</section>
-
-  </div>
-
-  <!-- Footer Row -->
-  <footer>
-    <p>This page created as academic activity only.</p>
-  </footer>
-
-</body>
+   </body>
 </html>
