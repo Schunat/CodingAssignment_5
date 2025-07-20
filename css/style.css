@@ -35,6 +35,9 @@ figcaption {
     word-wrap: break-word;
     word-break: break-word;
 }
+fieldset{
+    width: fit-content;
+}
 *{
 	box-sizing: border-box;
 	}
